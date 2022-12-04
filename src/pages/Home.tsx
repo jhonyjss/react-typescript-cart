@@ -1,3 +1,7 @@
 export function Home() {
-  return <h1>Home</h1>;
+  return (
+    <div className="d-flex justify-content-center align-items-center" style={{ height: "100vh" }}>
+      <h1>Click on the Store link to open the product list</h1>
+    </div>
+  );
 }
